@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.RegisterAsShelter"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <ImageView
+        android:id="@+id/imageShelterDocumentationPreview"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="8dp"
+        android:padding="1dp"
+        android:src="@drawable/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerAsShelterTopNav" />
+
+    <Button
+        android:id="@+id/buttonSelectEvidenceOfShelter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add a evidence of the shelter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageShelterDocumentationPreview" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/registerAsShelterTopNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconSize="@dimen/_28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/register_shelter_top_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <EditText
+        android:id="@+id/editTextShelterName"
+        android:layout_width="309dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Shelter Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSelectEvidenceOfShelter" />
+
+
+
+    <TextView
+        android:id="@+id/textViewShelterAddressLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shelter Address"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextShelterName" />
+
+    <EditText
+        android:id="@+id/editTextShelterAddress"
+        android:layout_width="309dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:layout_marginTop="16dp"
+        android:hint="Shelter Address"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewShelterAddressLabel" />
+
+
+    <Button
+        android:id="@+id/buttonRegisterShelter"
+        android:layout_width="229dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="Register Shelter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextShelterAddress" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCloseRegisterShelter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerAsShelterTopNav"
+        app:srcCompat="@drawable/baseline_close_black_48" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

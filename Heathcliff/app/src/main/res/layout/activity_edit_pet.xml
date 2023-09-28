@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.EditPet"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/editUserProfileTopNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconSize="@dimen/_28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/settings_top_nav" >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonEditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
+        app:backgroundTint="@color/white"
+        app:srcCompat="@drawable/baseline_done_black_48"
+        app:tint="@color/HeathcliffOrange" />
+
+
+
+    <EditText
+        android:id="@+id/editTextShelterName"
+        android:layout_width="309dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Pet Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUserPicture4" />
+
+    <TextView
+        android:id="@+id/textViewSpinnerBreedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Breed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextShelterName" />
+
+    <Spinner
+        android:id="@+id/spinnerBreed"
+        android:layout_width="309dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSpinnerBreedLabel" />
+
+    <TextView
+        android:id="@+id/textViewSuspensionReasonLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Coat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerBreed" />
+
+    <Spinner
+        android:id="@+id/spinnerReportReason"
+        android:layout_width="309dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSuspensionReasonLabel" />
+
+    <EditText
+        android:id="@+id/editTextShelterAddress"
+        android:layout_width="309dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Pet Description"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerReportReason" />
+
+
+    <ImageView
+        android:id="@+id/imageViewUserProfilePicture"
+        android:layout_width="238dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editUserProfileTopNavBar" />
+
+    <ImageView
+        android:id="@+id/imageViewUserPicture2"
+        android:layout_width="117dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/border"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserProfilePicture"
+        app:layout_constraintTop_toBottomOf="@+id/editUserProfileTopNavBar" />
+
+    <ImageView
+        android:id="@+id/imageViewUserPicture3"
+        android:layout_width="117dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/border"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserProfilePicture"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUserPicture2" />
+
+    <ImageView
+        android:id="@+id/imageViewUserPicture4"
+        android:layout_width="117dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUserProfilePicture" />
+
+    <ImageView
+        android:id="@+id/imageViewUserPicture5"
+        android:layout_width="117dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserPicture4"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUserProfilePicture" />
+
+    <ImageView
+        android:id="@+id/imageViewUserPicture6"
+        android:layout_width="117dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewUserPicture5"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUserProfilePicture" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPic2Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:layout_marginEnd="-12dp"
+        android:clickable="true"
+        android:scaleType="center"
+        app:fabCustomSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture2"
+        app:srcCompat="@drawable/baseline_close_black_18"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPic3Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:layout_marginEnd="-12dp"
+        android:clickable="true"
+        android:scaleType="center"
+        app:fabCustomSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture3"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture3"
+        app:srcCompat="@drawable/baseline_close_black_18"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPic4Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:layout_marginEnd="-12dp"
+        android:clickable="true"
+        android:scaleType="center"
+        app:fabCustomSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture4"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture4"
+        app:srcCompat="@drawable/baseline_close_black_18"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPic5Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:layout_marginEnd="-12dp"
+        android:clickable="true"
+        android:scaleType="center"
+        app:fabCustomSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture5"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture5"
+        app:srcCompat="@drawable/baseline_close_black_18"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPic6Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:layout_marginEnd="-12dp"
+        android:clickable="true"
+        android:scaleType="center"
+        app:fabCustomSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture6"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture6"
+        app:srcCompat="@drawable/baseline_close_black_18"
+        android:visibility="gone" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPic1Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-9dp"
+        android:layout_marginEnd="-9dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:visibility="gone"
+        app:fabCustomSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserProfilePicture"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserProfilePicture"
+        app:srcCompat="@drawable/baseline_close_black_18" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:fabCustomSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewUserPicture2"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewUserPicture2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture2"
+        app:srcCompat="@drawable/baseline_add_black_48" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:fabCustomSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewUserPicture3"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture3"
+        app:layout_constraintStart_toStartOf="@+id/imageViewUserPicture3"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture3"
+        app:srcCompat="@drawable/baseline_add_black_48" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPic4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:fabCustomSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewUserPicture4"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture4"
+        app:layout_constraintStart_toStartOf="@+id/imageViewUserPicture4"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture4"
+        app:srcCompat="@drawable/baseline_add_black_48" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPic5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:fabCustomSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewUserPicture5"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture5"
+        app:layout_constraintStart_toStartOf="@+id/imageViewUserPicture5"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture5"
+        app:srcCompat="@drawable/baseline_add_black_48" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPic6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:scaleType="center"
+        android:visibility="visible"
+        app:fabCustomSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewUserPicture6"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserPicture6"
+        app:layout_constraintStart_toStartOf="@+id/imageViewUserPicture6"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserPicture6"
+        app:srcCompat="@drawable/baseline_add_black_48" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewUserProfilePicture"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewUserProfilePicture"
+        app:layout_constraintStart_toStartOf="@+id/imageViewUserProfilePicture"
+        app:layout_constraintTop_toTopOf="@+id/imageViewUserProfilePicture"
+        app:srcCompat="@drawable/baseline_add_black_48" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDeletePet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        app:backgroundTint="@color/white"
+        app:tint="@color/HeathcliffOrange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_cancel_black_48" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

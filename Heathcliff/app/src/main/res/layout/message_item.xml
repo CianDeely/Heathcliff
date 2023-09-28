@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="false"
+
+        app:contentPadding="0dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgUser_message"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="76dp"
+                app:civ_border_color="#3F51B5"
+                app:civ_border_width="1dp"
+                app:layout_constraintLeft_toRightOf="@id/textMessage"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                app:layout_constraintLeft_toRightOf="@id/imgUser_message"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:id="@+id/textMessage"
+                android:text="Place_holder"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

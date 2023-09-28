@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.PetProfile"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <TextView
+        android:id="@+id/textViewPetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewPagerMain" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEditPetDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/baseline_edit_black_48" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/topNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemIconSize="@dimen/_28dp"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/top_nav" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerMain"
+        android:layout_width="412dp"
+        android:layout_height="479dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topNavBar">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <ImageView
+        android:id="@+id/imageViewShelterVerify"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPetName"
+        app:srcCompat="@drawable/cat" />
+
+    <ImageView
+        android:id="@+id/imageViewPetBreed"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPetCoat"
+        app:srcCompat="@drawable/certificate" />
+
+    <ImageView
+        android:id="@+id/imageViewPetCoat"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewShelterVerify"
+        app:srcCompat="@drawable/coat" />
+
+    <TextView
+        android:id="@+id/textViewPetCoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:text="Coat"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPetCoat"
+        app:layout_constraintTop_toBottomOf="@+id/textViewShelterVerify" />
+
+    <TextView
+        android:id="@+id/textViewPetBreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="35dp"
+        android:text="Breed"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPetBreed"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPetCoat" />
+
+    <TextView
+        android:id="@+id/textViewShelterVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        android:text="Type"
+        app:layout_constraintStart_toEndOf="@+id/imageViewShelterVerify"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPetName" />
+
+    <TextView
+        android:id="@+id/textViewUserDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:singleLine="false"
+        android:text="Description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPetBreed"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPetName" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

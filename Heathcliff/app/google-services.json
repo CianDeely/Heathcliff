@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1004303918476",
+    "firebase_url": "https://heathcliff-41dac-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "heathcliff-41dac",
+    "storage_bucket": "heathcliff-41dac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004303918476:android:08d5448f05457c40c222a9",
+        "android_client_info": {
+          "package_name": "com.example.heathcliff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004303918476-3h8vhkc1c5dn43dffjep08j4s1pgvqnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEVF2Mew1z_-kSXQltI0C8qgmPPy15P0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004303918476-3h8vhkc1c5dn43dffjep08j4s1pgvqnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

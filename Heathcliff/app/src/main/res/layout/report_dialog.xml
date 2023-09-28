@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewSuspensionReasonLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Report Reason"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerReportReason"
+        android:layout_width="309dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/report_reason_array"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSuspensionReasonLabel" />
+
+    <EditText
+        android:id="@+id/editTextSuspensionReason"
+        android:layout_width="309dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:layout_marginTop="16dp"
+        android:hint="Why are you reporting this user?"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerReportReason"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

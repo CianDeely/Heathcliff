@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/ic_home"
+    android:icon="@drawable/baseline_home_black_24"
+    android:title="Home" />
+
+    <item
+        android:id="@+id/ic_adoption_requests"
+        android:icon="@drawable/baseline_thumb_up_alt_black_24"
+        android:title="Adoption Requests" />
+
+    <item
+        android:id="@+id/ic_adopt"
+        android:icon="@drawable/baseline_favorite_black_24"
+        android:title="Adopt" />
+
+
+
+
+
+    <item
+        android:id="@+id/ic_matches"
+        android:icon="@drawable/baseline_star_black_24"
+        android:title="Matches" />
+
+    <item
+        android:id="@+id/ic_pets"
+        android:icon="@drawable/baseline_pets_black_24"
+        android:title="Pets" />
+
+</menu>

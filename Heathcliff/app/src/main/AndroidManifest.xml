@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.heathcliff">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature android:name="android.hardware.nfc" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Heathcliff">
+        <activity
+            android:name=".UI.ViewShelterRequest"
+            android:exported="false" />
+        <activity
+            android:name=".UI.RegisterAsShelter"
+            android:exported="false" />
+        <activity
+            android:name=".UI.ViewReport"
+            android:exported="false" />
+        <activity
+            android:name=".UI.ShelterRequests"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Reports"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Suspend"
+            android:exported="false" />
+        <activity
+            android:name=".UI.DirectMessage"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Preferences"
+            android:exported="false" />
+        <activity
+            android:name=".UI.EditUserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UI.UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UI.EditPet"
+            android:exported="false" />
+        <activity
+            android:name=".UI.PetProfile"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <data android:mimeType="application/com.heathcliff.example" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.AddPet"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Settings"
+            android:exported="false" />
+        <activity
+            android:name=".UI.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.CreateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UI.ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Pets"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Matches"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Adopt"
+            android:exported="false" />
+        <activity
+            android:name=".UI.AdoptionRequests"
+            android:exported="false" />
+        <activity
+            android:name=".UI.LandingPage"
+            android:exported="false" />
+        <activity
+            android:name=".UI.RegisterUser"
+            android:exported="false" />
+        <activity
+            android:name=".UI.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

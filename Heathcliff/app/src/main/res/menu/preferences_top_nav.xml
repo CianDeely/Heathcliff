@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_preferences"
+        android:icon="@drawable/baseline_tune_black_48"
+        android:title="Preferences" />
+</menu>

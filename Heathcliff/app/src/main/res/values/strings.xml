@@ -1,0 +1,749 @@
+<resources>
+    <string name="app_name">Heathcliff</string>
+
+    <string-array name="report_reason_array">
+        <item>Abusive Messages</item>
+        <item>Stolen Pictures</item>
+        <item>Inappropriate Photos</item>
+        <item>Spam</item>
+        <item>Selling Animals</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="suspension_length_array">
+        <item>1 Days</item>
+        <item>2 Days</item>
+        <item>3 Days</item>
+        <item>7 Days</item>
+        <item>14 Days</item>
+        <item>30 Days</item>
+        <item>Permanently</item>
+    </string-array>
+
+    <string-array name="genders_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer not to say</item>
+    </string-array>
+
+    <string-array name="types_array">
+        <item>Type</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Reptile</item>
+        <item>Bird</item>
+        <item>Rodent</item>
+    </string-array>
+
+    <string-array name="types_array_preferences">
+        <item>Any Type</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Reptile</item>
+        <item>Bird</item>
+        <item>Rodent</item>
+    </string-array>
+
+    <string-array name="dog_breeds_array">
+        <item>Mixed Breed</item>
+        <item>Affenhuahua</item>
+        <item>Affenpinscher</item>
+        <item>Afghan Hound</item>
+        <item>Airedale Terrier</item>
+        <item>Akbash</item>
+        <item>Akita Inu</item>
+        <item>Akita Shepherd</item>
+        <item>Alaskan Husky</item>
+        <item>Alaskan Malamute</item>
+        <item>American Bulldog</item>
+        <item>American Dingo</item>
+        <item>American English Coonhound</item>
+        <item>American Eskimo Dog</item>
+        <item>American Foxhound</item>
+        <item>American Hairless Terrier</item>
+        <item>American Leopard Hound</item>
+        <item>American Pit Bull Terrier</item>
+        <item>American Staffordshire Terrier</item>
+        <item>American Water Spaniel</item>
+        <item>Anatolian Shepherd Dog</item>
+        <item>Appenzeller Sennenhunde</item>
+        <item>Aussiedoodle</item>
+        <item>Australian Cattle Dog</item>
+        <item>Australian Kelpie</item>
+        <item>Australian Shepherd</item>
+        <item>Australian Terrier</item>
+        <item>Azawakh</item>
+        <item>Barbet</item>
+        <item>Basenji</item>
+        <item>Bassador</item>
+        <item>Basset Fauve de Bretagne</item>
+        <item>Basset Hound</item>
+        <item>Basset Retriever</item>
+        <item>Bavarian Mountain Scent Hound</item>
+        <item>Beabull</item>
+        <item>Beagle</item>
+        <item>Beaglier</item>
+        <item>Bearded Collie</item>
+        <item>Bedlington Terrier</item>
+        <item>Belgian Laekenois</item>
+        <item>Belgian Malinois</item>
+        <item>Belgian Sheepdog</item>
+        <item>Bergamasco Sheepdog</item>
+        <item>Berger Picard</item>
+        <item>Bernedoodle</item>
+        <item>Bernese Mountain Dog</item>
+        <item>Bichon Frise</item>
+        <item>Black and Tan Coonhound</item>
+        <item>Black Mouth Cur</item>
+        <item>Black Russian Terrier</item>
+        <item>Bloodhound</item>
+        <item>Blue Lacy</item>
+        <item>Bluetick Coonhound</item>
+        <item>Bo-Chi</item>
+        <item>Bo-Dach</item>
+        <item>Boerboel</item>
+        <item>Bohemian Shepherd</item>
+        <item>Bolognese</item>
+        <item>Borador</item>
+        <item>Border Collie</item>
+        <item>Border Terrier</item>
+        <item>Bordoodle</item>
+        <item>Borzoi</item>
+        <item>BoShih</item>
+        <item>Boston Bull Terrier</item>
+        <item>Boston Terrier</item>
+        <item>Bouvier des Flandres</item>
+        <item>Boxador</item>
+        <item>Boxer</item>
+        <item>Boykin Spaniel</item>
+        <item>Bracco Italiano</item>
+        <item>Briard</item>
+        <item>Brittany</item>
+        <item>Broholmer</item>
+        <item>Brussels Griffon</item>
+        <item>Bullpei</item>
+        <item>Bull Terrier</item>
+        <item>Bullador</item>
+        <item>Bulldog</item>
+        <item>Bullmastiff</item>
+        <item>Cairn Terrier</item>
+        <item>Canaan Dog</item>
+        <item>Cane Corso</item>
+        <item>Cardigan Welsh Corgi</item>
+        <item>Catahoula Leopard Dog</item>
+        <item>Caucasian Mountain Dog</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Cavapoo</item>
+        <item>Central Asian Shepherd Dog</item>
+        <item>Cesky Terrier</item>
+        <item>Cheagle</item>
+        <item>Chesapeake Bay Retriever</item>
+        <item>Chihuahua</item>
+        <item>Chinese Crested</item>
+        <item>Chi-Poo</item>
+        <item>Chinese Shar-Pei</item>
+        <item>Chinook</item>
+        <item>Chow Chow</item>
+        <item>Cocker Spaniel</item>
+        <item>Collie</item>
+        <item>Coton de Tulear</item>
+        <item>Dachshund</item>
+        <item>Dalmatian</item>
+        <item>Doberman Pinscher</item>
+        <item>English Setter</item>
+        <item>English Springer Spaniel</item>
+        <item>Finnish Lapphund</item>
+        <item>French Bulldog</item>
+        <item>German Shepherd Dog</item>
+        <item>Golden Retriever</item>
+        <item>Goldendoodle</item>
+        <item>Great Dane</item>
+        <item>Great Pyrenees</item>
+        <item>Greyhound</item>
+        <item>Havanese</item>
+        <item>Ibizan Hound</item>
+        <item>Irish Setter</item>
+        <item>Irish Wolfhound</item>
+        <item>Jack Russell Terrier</item>
+        <item>Japanese Chin</item>
+        <item>Kerry Blue Terrier</item>
+        <item>Labradoodle</item>
+        <item>Labrador Retriever</item>
+        <item>Lhasa Apso</item>
+        <item>Maltese</item>
+        <item>Mountain Cur</item>
+        <item>Neapolitan Mastiff</item>
+        <item>Newfoundland</item>
+        <item>Old English Sheepdog</item>
+        <item>Papillon</item>
+        <item>Pekingese</item>
+        <item>Pembroke Welsh Corgi</item>
+        <item>Pharaoh Hound</item>
+        <item>Pomeranian</item>
+        <item>Poodle</item>
+        <item>Portuguese Water Dog</item>
+        <item>Pug</item>
+        <item>Redbone Coonhound</item>
+        <item>Rhodesian Ridgeback</item>
+        <item>Rottweiler</item>
+        <item>Saint Bernard</item>
+        <item>Scottish Deerhound</item>
+        <item>Shetland Sheepdog</item>
+        <item>Shiba Inu</item>
+        <item>Shih Tzu</item>
+        <item>Shollie</item>
+        <item>Shorkie Tzu</item>
+        <item>Siberian Husky</item>
+        <item>Silky Terrier</item>
+        <item>Skye Terrier</item>
+        <item>Sloughi</item>
+        <item>Small Munsterlander Pointer</item>
+        <item>Soft Coated Wheaten Terrier</item>
+        <item>Spanish Mastiff</item>
+        <item>Spinone Italiano</item>
+        <item>Springador</item>
+        <item>Staffordshire Bull Terrier</item>
+        <item>Standard Schnauzer</item>
+        <item>Sussex Spaniel</item>
+        <item>Swedish Vallhund</item>
+        <item>Terri-Poo</item>
+        <item>Texas Heeler</item>
+        <item>Tibetan Mastiff</item>
+        <item>Tibetan Spaniel</item>
+        <item>Tibetan Terrier</item>
+        <item>Toy Fox Terrier</item>
+        <item>Transylvanian Hound</item>
+        <item>Treeing Walker Coonhound</item>
+        <item>Vizsla</item>
+        <item>Weimaraner</item>
+        <item>Welsh Springer Spaniel</item>
+        <item>Welsh Terrier</item>
+        <item>West Highland White Terrier</item>
+        <item>Westiepoo</item>
+        <item>Whippet</item>
+        <item>Wirehaired Pointing Griffon</item>
+        <item>Xoloitzcuintle</item>
+        <item>Yorkie-Poo</item>
+        <item>Yorkshire Terrier</item>
+    </string-array>
+
+    <string-array name="dog_breeds_array_preferences">
+        <item>Any Breed</item>
+        <item>Mixed Breed</item>
+        <item>Affenhuahua</item>
+        <item>Affenpinscher</item>
+        <item>Afghan Hound</item>
+        <item>Airedale Terrier</item>
+        <item>Akbash</item>
+        <item>Akita Inu</item>
+        <item>Akita Shepherd</item>
+        <item>Alaskan Husky</item>
+        <item>Alaskan Malamute</item>
+        <item>American Bulldog</item>
+        <item>American Dingo</item>
+        <item>American English Coonhound</item>
+        <item>American Eskimo Dog</item>
+        <item>American Foxhound</item>
+        <item>American Hairless Terrier</item>
+        <item>American Leopard Hound</item>
+        <item>American Pit Bull Terrier</item>
+        <item>American Staffordshire Terrier</item>
+        <item>American Water Spaniel</item>
+        <item>Anatolian Shepherd Dog</item>
+        <item>Appenzeller Sennenhunde</item>
+        <item>Aussiedoodle</item>
+        <item>Australian Cattle Dog</item>
+        <item>Australian Kelpie</item>
+        <item>Australian Shepherd</item>
+        <item>Australian Terrier</item>
+        <item>Azawakh</item>
+        <item>Barbet</item>
+        <item>Basenji</item>
+        <item>Bassador</item>
+        <item>Basset Fauve de Bretagne</item>
+        <item>Basset Hound</item>
+        <item>Basset Retriever</item>
+        <item>Bavarian Mountain Scent Hound</item>
+        <item>Beabull</item>
+        <item>Beagle</item>
+        <item>Beaglier</item>
+        <item>Bearded Collie</item>
+        <item>Bedlington Terrier</item>
+        <item>Belgian Laekenois</item>
+        <item>Belgian Malinois</item>
+        <item>Belgian Sheepdog</item>
+        <item>Bergamasco Sheepdog</item>
+        <item>Berger Picard</item>
+        <item>Bernedoodle</item>
+        <item>Bernese Mountain Dog</item>
+        <item>Bichon Frise</item>
+        <item>Black and Tan Coonhound</item>
+        <item>Black Mouth Cur</item>
+        <item>Black Russian Terrier</item>
+        <item>Bloodhound</item>
+        <item>Blue Lacy</item>
+        <item>Bluetick Coonhound</item>
+        <item>Bo-Chi</item>
+        <item>Bo-Dach</item>
+        <item>Boerboel</item>
+        <item>Bohemian Shepherd</item>
+        <item>Bolognese</item>
+        <item>Borador</item>
+        <item>Border Collie</item>
+        <item>Border Terrier</item>
+        <item>Bordoodle</item>
+        <item>Borzoi</item>
+        <item>BoShih</item>
+        <item>Boston Bull Terrier</item>
+        <item>Boston Terrier</item>
+        <item>Bouvier des Flandres</item>
+        <item>Boxador</item>
+        <item>Boxer</item>
+        <item>Boykin Spaniel</item>
+        <item>Bracco Italiano</item>
+        <item>Briard</item>
+        <item>Brittany</item>
+        <item>Broholmer</item>
+        <item>Brussels Griffon</item>
+        <item>Bullpei</item>
+        <item>Bull Terrier</item>
+        <item>Bullador</item>
+        <item>Bulldog</item>
+        <item>Bullmastiff</item>
+        <item>Cairn Terrier</item>
+        <item>Canaan Dog</item>
+        <item>Cane Corso</item>
+        <item>Cardigan Welsh Corgi</item>
+        <item>Catahoula Leopard Dog</item>
+        <item>Caucasian Mountain Dog</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Cavapoo</item>
+        <item>Central Asian Shepherd Dog</item>
+        <item>Cesky Terrier</item>
+        <item>Cheagle</item>
+        <item>Chesapeake Bay Retriever</item>
+        <item>Chihuahua</item>
+        <item>Chinese Crested</item>
+        <item>Chi-Poo</item>
+        <item>Chinese Shar-Pei</item>
+        <item>Chinook</item>
+        <item>Chow Chow</item>
+        <item>Cocker Spaniel</item>
+        <item>Collie</item>
+        <item>Coton de Tulear</item>
+        <item>Dachshund</item>
+        <item>Dalmatian</item>
+        <item>Doberman Pinscher</item>
+        <item>English Setter</item>
+        <item>English Springer Spaniel</item>
+        <item>Finnish Lapphund</item>
+        <item>French Bulldog</item>
+        <item>German Shepherd Dog</item>
+        <item>Golden Retriever</item>
+        <item>Goldendoodle</item>
+        <item>Great Dane</item>
+        <item>Great Pyrenees</item>
+        <item>Greyhound</item>
+        <item>Havanese</item>
+        <item>Ibizan Hound</item>
+        <item>Irish Setter</item>
+        <item>Irish Wolfhound</item>
+        <item>Jack Russell Terrier</item>
+        <item>Japanese Chin</item>
+        <item>Kerry Blue Terrier</item>
+        <item>Labradoodle</item>
+        <item>Labrador Retriever</item>
+        <item>Lhasa Apso</item>
+        <item>Maltese</item>
+        <item>Mountain Cur</item>
+        <item>Neapolitan Mastiff</item>
+        <item>Newfoundland</item>
+        <item>Old English Sheepdog</item>
+        <item>Papillon</item>
+        <item>Pekingese</item>
+        <item>Pembroke Welsh Corgi</item>
+        <item>Pharaoh Hound</item>
+        <item>Pomeranian</item>
+        <item>Poodle</item>
+        <item>Portuguese Water Dog</item>
+        <item>Pug</item>
+        <item>Redbone Coonhound</item>
+        <item>Rhodesian Ridgeback</item>
+        <item>Rottweiler</item>
+        <item>Saint Bernard</item>
+        <item>Scottish Deerhound</item>
+        <item>Shetland Sheepdog</item>
+        <item>Shiba Inu</item>
+        <item>Shih Tzu</item>
+        <item>Shollie</item>
+        <item>Shorkie Tzu</item>
+        <item>Siberian Husky</item>
+        <item>Silky Terrier</item>
+        <item>Skye Terrier</item>
+        <item>Sloughi</item>
+        <item>Small Munsterlander Pointer</item>
+        <item>Soft Coated Wheaten Terrier</item>
+        <item>Spanish Mastiff</item>
+        <item>Spinone Italiano</item>
+        <item>Springador</item>
+        <item>Staffordshire Bull Terrier</item>
+        <item>Standard Schnauzer</item>
+        <item>Sussex Spaniel</item>
+        <item>Swedish Vallhund</item>
+        <item>Terri-Poo</item>
+        <item>Texas Heeler</item>
+        <item>Tibetan Mastiff</item>
+        <item>Tibetan Spaniel</item>
+        <item>Tibetan Terrier</item>
+        <item>Toy Fox Terrier</item>
+        <item>Transylvanian Hound</item>
+        <item>Treeing Walker Coonhound</item>
+        <item>Vizsla</item>
+        <item>Weimaraner</item>
+        <item>Welsh Springer Spaniel</item>
+        <item>Welsh Terrier</item>
+        <item>West Highland White Terrier</item>
+        <item>Westiepoo</item>
+        <item>Whippet</item>
+        <item>Wirehaired Pointing Griffon</item>
+        <item>Xoloitzcuintle</item>
+        <item>Yorkie-Poo</item>
+        <item>Yorkshire Terrier</item>
+
+
+    </string-array>
+
+    <string-array name="cat_breeds_array">
+        <item>Mixed Breed</item>
+        <item>Abyssinian Cat</item>
+        <item>American Bobtail Cat</item>
+        <item>American Curl Cat</item>
+        <item>American Shorthair Cat</item>
+        <item>American Wirehair Cat</item>
+        <item>Balinese-Javanese Cat</item>
+        <item>Bengal Cat</item>
+        <item>Birman Cat</item>
+        <item>Bombay Cat</item>
+        <item>British Shorthair Cat</item>
+        <item>Burmese Cat</item>
+        <item>Chartreux Cat</item>
+        <item>Cornish Rex Cat</item>
+        <item>Devon Rex Cat</item>
+        <item>Egyptian Mau Cat</item>
+        <item>European Burmese Cat</item>
+        <item>Exotic Shorthair Cat</item>
+        <item>Havana Brown Cat</item>
+        <item>Himalayan Cat</item>
+        <item>Japanese Bobtail Cat</item>
+        <item>Korat Cat</item>
+        <item>LaPerm Cat</item>
+        <item>Maine Coon Cat</item>
+        <item>Manx Cat</item>
+        <item>Munchkin Cat</item>
+        <item>Norwegian Forest Cat</item>
+        <item>Ocicat Cat</item>
+        <item>Oriental Cat</item>
+        <item>Persian Cat</item>
+        <item>Peterbald Cat</item>
+        <item>Pixiebob Cat</item>
+        <item>Ragamuffin Cat</item>
+        <item>Ragdoll Cat</item>
+        <item>Russian Blue Cat</item>
+        <item>Savannah Cat</item>
+        <item>Scottish Fold Cat</item>
+        <item>Selkirk Rex Cat</item>
+        <item>Siamese Cat</item>
+        <item>Siberian Cat</item>
+        <item>Singapura Cat</item>
+        <item>Somali Cat</item>
+        <item>Sphynx Cat</item>
+        <item>Tonkinese Cat</item>
+        <item>Toyger Cat</item>
+        <item>Turkish Angora Cat</item>
+        <item>Turkish Van Cat</item>
+
+    </string-array>
+
+    <string-array name="cat_breeds_array_preferences">
+        <item>Any Breed</item>
+        <item>Mixed Breed</item>
+        <item>Abyssinian Cat</item>
+        <item>American Bobtail Cat</item>
+        <item>American Curl Cat</item>
+        <item>American Shorthair Cat</item>
+        <item>American Wirehair Cat</item>
+        <item>Balinese-Javanese Cat</item>
+        <item>Bengal Cat</item>
+        <item>Birman Cat</item>
+        <item>Bombay Cat</item>
+        <item>British Shorthair Cat</item>
+        <item>Burmese Cat</item>
+        <item>Chartreux Cat</item>
+        <item>Cornish Rex Cat</item>
+        <item>Devon Rex Cat</item>
+        <item>Egyptian Mau Cat</item>
+        <item>European Burmese Cat</item>
+        <item>Exotic Shorthair Cat</item>
+        <item>Havana Brown Cat</item>
+        <item>Himalayan Cat</item>
+        <item>Japanese Bobtail Cat</item>
+        <item>Korat Cat</item>
+        <item>LaPerm Cat</item>
+        <item>Maine Coon Cat</item>
+        <item>Manx Cat</item>
+        <item>Munchkin Cat</item>
+        <item>Norwegian Forest Cat</item>
+        <item>Ocicat Cat</item>
+        <item>Oriental Cat</item>
+        <item>Persian Cat</item>
+        <item>Peterbald Cat</item>
+        <item>Pixiebob Cat</item>
+        <item>Ragamuffin Cat</item>
+        <item>Ragdoll Cat</item>
+        <item>Russian Blue Cat</item>
+        <item>Savannah Cat</item>
+        <item>Scottish Fold Cat</item>
+        <item>Selkirk Rex Cat</item>
+        <item>Siamese Cat</item>
+        <item>Siberian Cat</item>
+        <item>Singapura Cat</item>
+        <item>Somali Cat</item>
+        <item>Sphynx Cat</item>
+        <item>Tonkinese Cat</item>
+        <item>Toyger Cat</item>
+        <item>Turkish Angora Cat</item>
+        <item>Turkish Van Cat</item>
+    </string-array>
+
+    <string-array name="bird_breeds_array">
+        <item>African Grey Parrot</item>
+        <item>Alexandrine Parakeet</item>
+        <item>Amazon Parrot</item>
+        <item>Blue-and-Gold Macaw</item>
+        <item>Blue-Crowned Conure</item>
+        <item>Blue-Headed Pionus</item>
+        <item>Budgie (Parakeet)</item>
+        <item>Caique</item>
+        <item>Canary</item>
+        <item>Cockatiel</item>
+        <item>Cockatoo</item>
+        <item>Conure</item>
+        <item>Crimson Rosella</item>
+        <item>Diamond Dove</item>
+        <item>Double Yellow-Headed Amazon Parrot</item>
+        <item>Dove</item>
+        <item>Eclectus</item>
+        <item>Finch</item>
+        <item>Fischer’s Lovebird</item>
+        <item>Goffin’s Cockatoo</item>
+        <item>Golden-Mantled Rosella</item>
+        <item>Gouldian Finch</item>
+        <item>Green-Cheeked Conure</item>
+        <item>Green-Winged Macaw</item>
+        <item>Hahn’s Macaw</item>
+        <item>Hyacinth Macaw</item>
+        <item>Indian Ring-Necked Parakeet</item>
+        <item>Jenday Conure</item>
+        <item>Lilac-Crowned Amazon</item>
+        <item>Lory</item>
+        <item>Lovebird</item>
+        <item>Macaw</item>
+        <item>Meyer’s Parrot</item>
+        <item>Moluccan Cockatoo</item>
+        <item>Orange-Winged Amazon Parrot</item>
+        <item>Owl Finch</item>
+        <item>Pacific Parrotlet</item>
+        <item>Parrot</item>
+        <item>Parrotlet</item>
+        <item>Peach-Faced Lovebird</item>
+        <item>Pionus Parrot</item>
+        <item>Poicephalus</item>
+        <item>Psittacula</item>
+        <item>Quaker Parakeet</item>
+        <item>Rainbow Lory</item>
+        <item>Red Lory</item>
+        <item>Red-Factor Canary</item>
+        <item>Ring-Necked Dove</item>
+        <item>Rosella</item>
+        <item>Scarlet Macaw</item>
+        <item>Senegal Parrot</item>
+        <item>Song Canary</item>
+        <item>Sun Conure</item>
+        <item>Umbrella Cockatoo</item>
+        <item>Vasa Parrot</item>
+        <item>White-Capped Pionus</item>
+        <item>Yellow-Naped Amazon Parrot</item>
+        <item>Zebra Finch</item>
+
+    </string-array>
+
+    <string-array name="bird_breeds_array_preferences">
+        <item>Any Breed</item>
+        <item>African Grey Parrot</item>
+        <item>Alexandrine Parakeet</item>
+        <item>Amazon Parrot</item>
+        <item>Blue-and-Gold Macaw</item>
+        <item>Blue-Crowned Conure</item>
+        <item>Blue-Headed Pionus</item>
+        <item>Budgie (Parakeet)</item>
+        <item>Caique</item>
+        <item>Canary</item>
+        <item>Cockatiel</item>
+        <item>Cockatoo</item>
+        <item>Conure</item>
+        <item>Crimson Rosella</item>
+        <item>Diamond Dove</item>
+        <item>Double Yellow-Headed Amazon Parrot</item>
+        <item>Dove</item>
+        <item>Eclectus</item>
+        <item>Finch</item>
+        <item>Fischer’s Lovebird</item>
+        <item>Goffin’s Cockatoo</item>
+        <item>Golden-Mantled Rosella</item>
+        <item>Gouldian Finch</item>
+        <item>Green-Cheeked Conure</item>
+        <item>Green-Winged Macaw</item>
+        <item>Hahn’s Macaw</item>
+        <item>Hyacinth Macaw</item>
+        <item>Indian Ring-Necked Parakeet</item>
+        <item>Jenday Conure</item>
+        <item>Lilac-Crowned Amazon</item>
+        <item>Lory</item>
+        <item>Lovebird</item>
+        <item>Macaw</item>
+        <item>Meyer’s Parrot</item>
+        <item>Moluccan Cockatoo</item>
+        <item>Orange-Winged Amazon Parrot</item>
+        <item>Owl Finch</item>
+        <item>Pacific Parrotlet</item>
+        <item>Parrot</item>
+        <item>Parrotlet</item>
+        <item>Peach-Faced Lovebird</item>
+        <item>Pionus Parrot</item>
+        <item>Poicephalus</item>
+        <item>Psittacula</item>
+        <item>Quaker Parakeet</item>
+        <item>Rainbow Lory</item>
+        <item>Red Lory</item>
+        <item>Red-Factor Canary</item>
+        <item>Ring-Necked Dove</item>
+        <item>Rosella</item>
+        <item>Scarlet Macaw</item>
+        <item>Senegal Parrot</item>
+        <item>Song Canary</item>
+        <item>Sun Conure</item>
+        <item>Umbrella Cockatoo</item>
+        <item>Vasa Parrot</item>
+        <item>White-Capped Pionus</item>
+        <item>Yellow-Naped Amazon Parrot</item>
+        <item>Zebra Finch</item>
+    </string-array>
+
+    <string-array name="rodent_breeds_array">
+        <item>Chinchilla</item>
+        <item>Gerbil</item>
+        <item>Guinea Pig</item>
+        <item>Hamster</item>
+        <item>Mouse</item>
+        <item>Rat</item>
+    </string-array>
+
+    <string-array name="rodent_breeds_array_preferences">
+        <item>Any Breed</item>
+        <item>Chinchilla</item>
+        <item>Gerbil</item>
+        <item>Guinea Pig</item>
+        <item>Hamster</item>
+        <item>Mouse</item>
+        <item>Rat</item>
+    </string-array>
+
+    <string-array name="reptiles_breeds_array">
+        <item>Snake</item>
+        <item>Bearded Dragon</item>
+        <item>Blue tongued Skink</item>
+        <item>Gecko</item>
+        <item>Frog</item>
+        <item>Monitor Lizard</item>
+        <item>Iguana</item>
+    </string-array>
+
+    <string-array name="reptiles_breeds_array_preferences">
+        <item>Any Breed</item>
+        <item>Snake</item>
+        <item>Bearded Dragon</item>
+        <item>Blue tongued Skink</item>
+        <item>Gecko</item>
+        <item>Frog</item>
+        <item>Monitor Lizard</item>
+        <item>Iguana</item>
+    </string-array>
+
+    <string-array name="dog_coats_array">
+        <item>None</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Gold</item>
+        <item>Yellow</item>
+        <item>Cream</item>
+        <item>Blue</item>
+        <item>Grey</item>
+    </string-array>
+
+    <string-array name="dog_coats_array_preferences">
+        <item>Any Coat</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Gold</item>
+        <item>Yellow</item>
+        <item>Cream</item>
+        <item>Blue</item>
+        <item>Grey</item>
+    </string-array>
+
+    <string-array name="cat_coats_array">
+        <item>None</item>
+        <item>Ginger</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Tabby</item>
+        <item>Tortoiseshell</item>
+        <item>Hairless</item>
+        <item>Torbie</item>
+        <item>Tri Colour</item>
+        <item>Bi-Color</item>
+        <item>Pointed</item>
+    </string-array>
+
+    <string-array name="cat_coats_array_preferences">
+        <item>Any Coat</item>
+        <item>Ginger</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Tabby</item>
+        <item>Tortoiseshell</item>
+        <item>Hairless</item>
+        <item>Torbie</item>
+        <item>Tri Colour</item>
+        <item>Bi-Color</item>
+        <item>Pointed</item>
+    </string-array>
+
+    <string-array name="reptile_coats_array">
+        <item>None</item>
+    </string-array>
+
+    <string-array name="bird_coats_array">
+        <item>None</item>
+    </string-array>
+
+    <string-array name="rodent_coats_array">
+        <item>None</item>
+    </string-array>
+
+    <string name="gender_hint">Gender</string>
+</resources>
