@@ -1,6 +1,8 @@
 # Heathcliff
 Geosocial Networking Online Animal Rescue and Rehoming Mobile Application
 
+![Heathcliff animated logo](https://repository-images.githubusercontent.com/697829966/8811e0b5-bc11-452a-9954-5e2bc6460496)
+
 A completed fully functioning Android application developed during my final year of my undergraduate degree. A modern mobile application that modernizes the animal adoption process. The project shows how a mobile application can reduce the strain on animal shelters by increasing visibility for animals
 in shelters and by allowing remote viewing of animals by potential adopters.
 
